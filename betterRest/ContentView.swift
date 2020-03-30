@@ -23,16 +23,7 @@ struct ContentView: View {
     @State private var wakeUp = Date()
     
     var body: some View {
-        let formatter = DateFormatter()
-        formatter.timeStyle = .short
-        let dateString = formatter.string(from: Date())
-        
-        
-        // dates are confusing.. they're are daylight savings, gregorian calendars, leap time. let ios do everything.
-        
-        
-        
-        return DatePicker("Please enter a date", selection: $wakeUp, in: Date()...)
+        DatePicker("Please enter a date", selection: $wakeUp, displayedComponents: .hourAndMinute)
             .labelsHidden()
     }
 }

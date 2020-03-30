@@ -13,6 +13,7 @@
 		0B489E4424316AFF00E26580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B489E4324316AFF00E26580 /* Assets.xcassets */; };
 		0B489E4724316AFF00E26580 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B489E4624316AFF00E26580 /* Preview Assets.xcassets */; };
 		0B489E4A24316AFF00E26580 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B489E4824316AFF00E26580 /* LaunchScreen.storyboard */; };
+		0B489E522431729C00E26580 /* BetterRest 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0B489E512431729C00E26580 /* BetterRest 1.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0B489E4624316AFF00E26580 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0B489E4924316AFF00E26580 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B489E4B24316AFF00E26580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B489E512431729C00E26580 /* BetterRest 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "BetterRest 1.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				0B489E3D24316AFD00E26580 /* AppDelegate.swift */,
 				0B489E3F24316AFD00E26580 /* SceneDelegate.swift */,
 				0B489E4124316AFD00E26580 /* ContentView.swift */,
+				0B489E512431729C00E26580 /* BetterRest 1.mlmodel */,
 				0B489E4324316AFF00E26580 /* Assets.xcassets */,
 				0B489E4824316AFF00E26580 /* LaunchScreen.storyboard */,
 				0B489E4B24316AFF00E26580 /* Info.plist */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B489E3E24316AFD00E26580 /* AppDelegate.swift in Sources */,
+				0B489E522431729C00E26580 /* BetterRest 1.mlmodel in Sources */,
 				0B489E4024316AFD00E26580 /* SceneDelegate.swift in Sources */,
 				0B489E4224316AFD00E26580 /* ContentView.swift in Sources */,
 			);
